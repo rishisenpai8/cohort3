@@ -15,7 +15,8 @@ function fileCleaner(){
           console.log('Error: '+err);  
         }
         else{
-            const cleanData = data.split(' ').filter(word => word!=='').join(' ').trim();
+            const cleanData = data.split(' ').filter(word => word!=='').join(' ').trim(); 
+            //if dont understand the above line Please GPT it to understand it :) can be hard for begginer
 
 
 
