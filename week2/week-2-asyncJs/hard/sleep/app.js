@@ -4,7 +4,7 @@
  * the function should return a promise just like before
  */
 
-//I copied this from GPT bc I am not good enough rn to understand what did the question ask me to say
+//I copied this from GPT bc I am not good enough rn to understand what did the question meant
 function haltFunction(ms){
    const start = Date.now();
    
