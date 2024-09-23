@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+button{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 1)
+}
+
+#Red{
+    background-color: red;
+    color: white;
+}
+#Green{
+    background-color: green;
+    color: white;
+}
+#Blue{
+    background-color: blue;
+    color: white;
+}
+/* #Choose-color{
+    
+}
+#Red{
+    
+} */
