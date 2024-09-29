@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+}
+
+.all-content
+
+nav{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#nav-1{
+    background-color: #020c1c;
+    color: white;
+    padding-bottom: 15px;
+    height: 30px;
+    overflow: auto;
+}
+#stick{
+    width: 0.5rem;
+    color: darkgray;
+}
+
+#nav-1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+    
+nav ul li{
+    margin: 0 20px;
+    cursor: pointer;
+    align-items: center;
+}
+#nav-2{
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+#zoomLogo {
+    position: relative;
+    display: flex;
+    width: 75px;
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+    top: -10px;
+}
+    
+.nav-items:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+#nav-2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+
+#nav-2 ul li:nth-child(5){
+    margin-right: auto;
+    
+}
+
+.nav-items{
+    padding-top: 10px;
+    font-size: large;
+}
+
+
+#Contact{
+    display: flex;
+    border: 2px solid dodgerblue ;
+    color: dodgerblue;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#Contact:hover {
+    background-color: #a1dbfd;
+    color: dodgerblue;
+}
+
+#signUp{
+    display: flex;
+    border: 2px solid dodgerblue ;
+    color: rgb(241, 244, 246);
+    background-color: dodgerblue;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+#signUp:hover{
+    background-color: rgb(4, 49, 88);
+    color: aliceblue;
+}
+
+.ai-link{
+    position: relative;
+    background-color: rgb(226, 255, 226);
+    color: black;
+    border: 1px solid green;
+    margin-left: 7%;
+    top: 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.learn{
+    font-weight: 200;
+}
+
+.bell{
+    padding: 5px 8px;
+    background-color: #84e884;
+    border-radius: 50%;
+}
+
+
+.header{
+    font-size: xxx-large;
+}
+
+.highlight{
+    color: dodgerblue;
+}
+
+.main-content{
+    margin-left: 7%;
+}
+
+.body{
+    margin-left: 7%;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: x-large;
+}
+.pricing{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#plans{
+    border: 1px solid dodgerblue;
+    border-radius: 40px;
+    padding: 20px 40px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: large;
+}
+
+#plansdiscover{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 20px 40px;
+    color: dodgerblue;
+    font-size: large;
+}
+
+#plans:hover{
+    background-color:rgb(4, 49, 88) ;
+}
+
+.all-content{
+    margin-right: 50px;
+    flex: 1;
+}
+
+#image{
+    float: right;
+    margin-left: 50px;
+    max-width: 650px;
+    height: 650px;
+    margin-top: -18px;
+}
+
+
+
+
+
+
+
+
+
