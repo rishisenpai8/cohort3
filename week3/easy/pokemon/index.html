@@ -14,24 +14,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Pokedex</h1>
-    <div class="poke-container" id="poke-container">
-      <div class="pokemon" style="background-color: rgb(222, 253, 224)">
-        <div class="image-container">
-          <img
-            src="https://pokeres.bastionbot.org/images/pokemon/1.png"
-            alt=""
-          />
-          <div class="info">
-            <span class="number">#001</span>
-            <h3 class="name">Balbasaur</h3>
-            <small class="type">Type: <span>grass</span></small>
+    <div class="container">
+      <h1>Pokedex</h1>
+      <div class="search-box">
+        <input type="search for your favourite pokemon..." id="input" style="height: 2rem; width: 15rem; border-radius: 0.3rem;"> 
+        <button id="search-btn" onclick="getPokemonData()" style="height: 2rem; width: 5rem; padding: 0.4rem; cursor: pointer; border-radius: 0.3rem;">Search</button>
+      </div>
+
+      <div class="poke-container" id="poke-container">
+        
+          <div class="image-container">
+            <img id="pokemon-img" src="/week3/medium/download.png" alt=""/> 
           </div>
+
+          <div class="info">
+            <div class="pokemon-info">
+              <span id="number"></span>
+              <h3 id="name">Pokemon Name</h3>
+              <small class="height">height: <span id="height"></span>Ft</small>
+              <small class="weight">weight: <span id="weight"></span>Lbs</small>
+            </div>
+
+            
+          </div>
+
         </div>
       </div>
     </div>
-   
-    </div>
+    
     <script src="app.js"></script>
   </body>
 </html>
